@@ -201,7 +201,7 @@ def plot_trials(csv):
 		ax.text(0.40, 0, "{}".format(reliability_rating), fontsize=40, ha='center', color=reliability_color)
 
 	else:
-		ax.text(0.36, 0.30, "Simulation completed\nwith testing disabled.", fontsize=20, ha='center', style='italic')	
+		ax.text(0.36, 0.30, "Simulation completed\nwith testing disabled.", fontsize=20, ha='center', style='italic')
 
 	plt.tight_layout()
 	plt.show()
